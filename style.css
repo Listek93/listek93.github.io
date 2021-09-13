@@ -1,14 +1,10 @@
 body {
     background: url("mountains-1412683.svg") repeat-x bottom left;
-    background-size: 3100px;
+    background-size: cover;
     height: 100%; 
     background-attachment: fixed;
-}
-.calosc {
-    background: url("mountains-1412683.svg") repeat-x bottom left;
-    background-size: 3100px;
-    height: 100%; 
-    
+    background-origin: border-box;
+    margin-top: 150px;
 }
 .wrapper {
     animation: show 1s ease-in-out 1s forwards;
@@ -16,11 +12,16 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
     flex-direction: column;
+    justify-content: center;
     background: none;
-
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 p {
